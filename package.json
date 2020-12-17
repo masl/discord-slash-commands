@@ -1,0 +1,27 @@
+{
+  "name": "discord-slash-commands",
+  "version": "1.0.0",
+  "description": "Testing the new slash-commands features",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masl/discord-slash-commands.git"
+  },
+  "author": "masl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masl/discord-slash-commands/issues"
+  },
+  "homepage": "https://github.com/masl/discord-slash-commands#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "localenv": "^0.2.2",
+    "nodemon": "^2.0.6"
+  }
+}
